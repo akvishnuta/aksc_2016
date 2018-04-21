@@ -1,0 +1,97 @@
+/**
+ * BlankPlate | Yet another HTML5 Starter Kit
+ *
+ * BlankPlate Main stylesheet
+ *
+ * @copyright	Copyright 2013, Dimitris Krestos
+ * @license		Apache License, Version 2.0 (http://www.opensource.org/licenses/apache2.0.php)
+ * @link		http://vdw.staytuned.gr/html5-starter-kit-blankplate/
+ * @package		BlankPlate
+ * @version		v1.3.2
+ */
+
+/**
+ * WORLD
+ *
+ * -------------------------------------------------------------------------------------------------
+ */
+BODY {
+	font-size: 13px; /* Override typography */
+	/*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+	font-family: 'Nunito', sans-serif;
+}
+
+#wrapper {
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+/**
+ * HEADER
+ * Your header rules
+ * -------------------------------------------------------------------------------------------------
+ */
+#header_wrapper {
+	background: white;
+	width: 100%;
+}
+
+
+/**
+ * NAVIGATION
+ * Your horizontal (global) navigation rules
+ * -------------------------------------------------------------------------------------------------
+ */
+#nav_wrapper {
+
+}
+ASIDE {
+	float: left
+}
+
+/**
+ * BODY
+ * Your content rules
+ * -------------------------------------------------------------------------------------------------
+ */
+SECTION#body {
+	float: left;
+	width: 100%;
+}
+
+ARTICLE {}
+
+#map_canvas {
+	height: 300px;
+	width: 100%;
+}
+
+/**
+ * CONTACT
+ * Your form rules
+ * -------------------------------------------------------------------------------------------------
+ */
+.contact FORM {}
+
+.contact FORM INPUT[type="text"] {
+	padding: 0 10px;
+}
+
+.contact FORM INPUT[type="submit"] {
+	margin: 0;
+}
+
+/**
+ * FOOTER
+ * Your footer rules
+ * -------------------------------------------------------------------------------------------------
+ */
+FOOTER {
+	width: 100%
+}
+
+.footer_wrapper {
+	color: #888;
+	margin: 20px auto;
+	width: 940px;
+}
